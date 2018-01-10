@@ -1,3 +1,7 @@
+# 2.1.0
+
+- Adds walk support.
+
 # 2.0.2
 
 - Fixing parsing of `yield import()`.
