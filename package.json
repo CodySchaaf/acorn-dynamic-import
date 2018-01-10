@@ -1,13 +1,16 @@
 {
-  "name": "acorn-dynamic-import",
-  "description": "Support dynamic imports in acorn",
+  "name": "acorn-dynamic-import-with-walk-support",
+  "description": "Support dynamic imports in acorn, with walk support",
   "main": "lib/index.js",
-  "homepage": "https://github.com/kesne/acorn-dynamic-import",
-  "author": "Jordan Gensler <jordangens@gmail.com>",
+  "author": "Cody Schaaf and Jordan Gensler <jordangens@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kesne/acorn-dynamic-import"
+    "url": "git+https://github.com/CodySchaaf/acorn-dynamic-import-with-walk-support.git"
   },
+  "bugs": {
+    "url": "https://github.com/CodySchaaf/acorn-dynamic-import-with-walk-support/issues"
+  },
+  "homepage": "https://github.com/CodySchaaf/acorn-dynamic-import-with-walk-support#readme",
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir lib",
